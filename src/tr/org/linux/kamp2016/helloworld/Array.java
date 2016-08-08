@@ -6,7 +6,7 @@ public class Array {
 
 	public static void main(String[] args) {
 		
-		// ctrl+shift+7 seçtiğin kısmı yorum satırı yapar.
+		// ctrl+shift+c seçtiğin kısmı yorum satırı yapar.
 
 		// int[] erey = new int[3];
 		// int[] erey2 = new int[] {1,5,6};
@@ -15,7 +15,7 @@ public class Array {
 		//
 		// int total3=0;
 		//
-		// for(int i=0; i<erey2.length; i++)
+		//		 for(int i=0; i<erey2.length; i++)
 		// total3 += erey2[i];
 		//
 		// System.out.println("total3: " + total3);
@@ -23,6 +23,7 @@ public class Array {
 		Scanner input = new Scanner(System.in);
 		
 		System.out.println("bir deger girin. ");
+		
 		int inputNumber = input.nextInt();
 		
 		int[] errey5 = new int[4];
