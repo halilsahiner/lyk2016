@@ -1,4 +1,4 @@
-package examples;
+package cardGuessingGame;
 
 import java.util.Scanner;
 
