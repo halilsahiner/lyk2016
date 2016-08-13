@@ -30,6 +30,21 @@ public class AccountTest {
 
 		System.out.println(account1.getName() + " 'nin bakiyesi: " + account1.getBalance());
 		
+		Account account2 = new Account("Sinan", 45.00);
+		
+		System.out.println(account2.getName() + "'nin bakiyesi: " + account2.getBalance());
+		
+		System.out.println("yatirmak istediginiz para miktarini giriniz: ");
+		
+		double depositAmount2 = input.nextDouble();
+		
+		System.out.println(depositAmount2 + " TL " + account2.getName() + " kisisinin hesabina ekleniyor...");
+
+		account2.deposit(depositAmount2);
+
+		System.out.println(account2.getName() + " 'nin bakiyesi: " + account2.getBalance());
+		
+		
 		// ctrl+shift+f kodu düzenler.
 
 	}

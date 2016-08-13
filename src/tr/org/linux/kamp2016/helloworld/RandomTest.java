@@ -12,8 +12,8 @@ public class RandomTest {
 		double randomNumber2 = Math.random()*5;
 		System.out.println(randomNumber2);
 		
-		double randomNumber3 = randomIntegerMath(-5,5);
-		System.out.println(randomNumber3);
+//		double randomNumber3 = randomIntegerMath(-5,5);
+//		System.out.println(randomNumber3);
 		
 		double randomNumber4 = randomIntegerRandom(-5,5);
 		System.out.println(randomNumber4);

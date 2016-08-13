@@ -2,7 +2,7 @@ package tr.org.linux.kamp2016.helloworld;
 
 public class Animal {
 	
-	String name;
+	private String name;
 	
 	public String getName(){
 		
